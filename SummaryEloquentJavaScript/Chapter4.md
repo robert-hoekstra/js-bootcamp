@@ -13,9 +13,18 @@ Also calling a specific value out of the array can be done like `listOfLetters[0
 Above is also called zero based counting.
 
 ## Properties
+A lot of expressions look like `myString.length` or `Math.max`.
+These are expressions that access a property of some value.
+those words after the dot are called properties.
 
+all JavaScript values have properties. Except null and undefined.
+
+There are two ways to call a property. Either with a `.` or with `[]` behind the expression. The difference is that the brackets will try to evaluate a property within the expression. Whileas the dot will search for a literal expression.
+
+If we want to call a property within an Array we used the brackets.
 
 ## Methods
+
 ## Objects
 ## Mutability
 ## The lycanthrope's Log
