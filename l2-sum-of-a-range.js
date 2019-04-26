@@ -15,9 +15,8 @@ console.log(range(10, 1));
 
 function sum (listOfNumbers){
     let totalOfList = 0;
-    for (var i = listOfNumbers[0]; i >= listOfNumbers[-1]; i++){
+    for (var i = 0; i < listOfNumbers.length; i++){
         totalOfList += listOfNumbers[i];
-        return totalOfList;
     }
     return totalOfList;
 }
