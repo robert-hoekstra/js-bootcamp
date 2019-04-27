@@ -33,6 +33,9 @@ The confusing part however was that on the previous exercises my python notation
 
 Notes from class, this exerices was demonstrated during class.
 
+## Locked box & Roads Module
+I can't see any way where to start. Would like some extra lecturing about these two.
+
 
 
 
