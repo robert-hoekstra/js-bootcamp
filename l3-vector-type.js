@@ -3,6 +3,7 @@ class vec {
         this.x = x;
         this.y = y;
     }
+
     plus(another) {
         return new vec(this.x + another.x, this.y + another.y);
     }
@@ -17,8 +18,5 @@ class vec {
 }
 
 console.log(new vec(1, 2).plus(new vec(2, 3)));
-// → Vec{x: 3, y: 5}
 console.log(new vec(1, 2).minus(new vec(2, 3)));
-// → Vec{x: -1, y: -1}
 console.log(new vec(3, 4).length);
-// → 5
