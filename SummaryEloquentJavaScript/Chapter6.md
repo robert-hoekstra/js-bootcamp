@@ -107,9 +107,39 @@ console.log(Object.prototype.toString.call([1, 2]));
 // → [object Array]
 
 ## Maps
+In JavaScript; A map is a data structure that associated values with other valyes.
+
+So for example we can combine age and names with eachother.
+
+So we can actually look in a map if a value related to another value is known or not.
+
+Object property names must be strings. If the keys within a object can't be converted to strings then you cannot use an object as your map.
+
+However with the map function we can make objects with the above prefixes. It stores the mapping and allows any type of keys.
+
+Next to the `Map` object we also have `set` `get` and `has`. 
+
 ## Polymorphism
+When we asign the keyword string to a value. Basically we are calling the `toString` method. the method will look at any value that fits the interface in where it wel smartly convert to a string.
+
 ## Symbols
+You can crate symvols in Javscript with the `Symbol` function. Multiple synbols may have the same name. However you can'y create the symbol twice. therefore symbols als included and not exclusive.
+
+
 ## The Iterator Interface
+When we write functions to iterate over values. We actally fire the iterator interface. Where property names as `next` `done` and `value` are stored.
+These properties are used to properly let a for loop do its job.
+
+
 ## Getters, Setters, And Statistics
+You can get information from a property by using the `get` method.
+To set information to a property we can use `set`
+Inside a class decleration we can use `static` so the methods are stores on the constructor.
+
 ## Inheritance
+Some matrices are symmetrical.
+Rewriting code is stupid. So in JavaScript we can use the `new` keyword to get a new binding out of an already created binding. Thus we make sure that the symmetrical aspect of the binding stays intact.
+
+This is called inheritance.
 ## The InstanceOf Operator
+the `InstanceOf` operator is handy to check wether a value or binding is derived from itself or from the object class. most of the bindings are in fact derived from the object.
